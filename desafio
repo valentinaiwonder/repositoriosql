@@ -1,0 +1,49 @@
+CREATE TABLE aluno (
+	id_aluno INTEGER PRIMARY KEY,
+	nome VARCHAR(50) NOT NULL,
+	nota NUMERIC (10,2)
+)
+ALTER TABLE aluno ADD idade INTEGER 
+
+ALTER TABLE aluno DROP nota 
+
+ALTER TABLE ALUNO ADD nota1 NUMERIC (10,2) 
+
+ALTER TABLE ALUNO ADD nota2 NUMERIC (10,2) 
+
+ALTER TABLE ALUNO ADD datanascimento DATE;
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(1, 'aluno1', 18, 20, 70, '2008-03-05')  
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(2, 'aluno2', 18, 20, 70, '2007-02-06')  
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(3, 'aluno3', 18, 20, 70, '2007-07-09') 
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(4, 'aluno4', 28, 20, 60, '2006-07-09') 
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(5, 'aluno5', 18, 20, 70, '2008-12-12') 
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(6, 'aluno6', 18, 20, null, '2007-12-12') 
+
+INSERT INTO aluno  
+(id_aluno, nome, idade, nota1, nota2, datanascimento)  
+VALUES  
+(6, 'aluno6', 18, 20, null, '2007-12-12') 
